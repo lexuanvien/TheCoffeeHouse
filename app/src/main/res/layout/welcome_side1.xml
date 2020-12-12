@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/bia"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:src="@drawable/bia" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_margin="60dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bia"
+        android:src="@drawable/thecoffeehouse" />
+
+</RelativeLayout>
